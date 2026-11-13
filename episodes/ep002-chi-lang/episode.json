@@ -1,0 +1,3589 @@
+{
+ "id": "ep002-chi-lang",
+ "series": "Tí Xuyên Sử",
+ "title_working": "Chi Lăng – Xương Giang 1427 (tóm tắt nhanh)",
+ "format": "long",
+ "voice": {
+  "engine": "edge",
+  "edge_voice": "vi-VN-NamMinhNeural",
+  "edge_rate": "+5%",
+  "edge_pitch": "-4Hz",
+  "sentence_gap": 0.36,
+  "scene_tail": 0.6
+ },
+ "music": {
+  "file": "",
+  "volume": 0.13,
+  "generate": true,
+  "mood": "adventure"
+ },
+ "timeline": {
+  "start": 1407,
+  "end": 1428,
+  "title": "CHIẾN THẮNG CHI LĂNG – XƯƠNG GIANG",
+  "ticks": [
+   1418,
+   1426,
+   1427
+  ]
+ },
+ "fact_check": [
+  "1407: nhà Minh đánh bại nhà Hồ (quốc hiệu Đại Ngu), đặt ách đô hộ (Giao Chỉ) đến 1427.",
+  "Chính sách thời thuộc Minh: thuế nặng (muối, ruộng, sản vật), lao dịch (khai mỏ, mò ngọc trai, xây đắp), đồng hoá (thu gom, tiêu huỷ sách vở; ép theo phong tục nhà Minh) – SGK Lịch sử 7.",
+  "1418: Lê Lợi khởi nghĩa ở Lam Sơn (Thanh Hoá); Nguyễn Trãi là mưu sĩ.",
+  "Cuối 1426: sau trận Tốt Động – Chúc Động, Vương Thông rút vào thành Đông Quan, bị vây.",
+  "10/1427: viện binh Minh – Liễu Thăng 10 vạn quân, 2 vạn ngựa (đường Lạng Sơn); Mộc Thạnh 5 vạn quân, 1 vạn ngựa (đường Vân Nam). Nguồn: SGK Lịch sử 7, vietjack; Wikipedia; Minh sử ghi đạo Liễu Thăng khoảng 7 vạn.",
+  "Nghĩa quân chủ trương diệt Liễu Thăng trước, cầm chân Mộc Thạnh.",
+  "Trần Lựu giả thua nhử địch vào Chi Lăng; 18/9 âm lịch (≈8/10/1427) Liễu Thăng vào ải, 20/9 âm lịch (≈10/10/1427) tử trận ở núi Mã Yên (Đảo Mã Pha) – thuyết bị chém / bị phóng lao (Bảo tàng LSQG).",
+  "Lương Minh lên thay; Lương Minh tử trận ở Cần Trạm, Lý Khánh tự vẫn ở Phố Cát.",
+  "Thành Xương Giang đã bị nghĩa quân hạ trước; quân Minh đóng trại ngoài đồng, bị vây diệt; Thôi Tụ, Hoàng Phúc bị bắt sống (SGK Lịch sử 7).",
+  "Mộc Thạnh nghe tin Liễu Thăng tử trận thì rút chạy, bị truy kích.",
+  "10/12/1427 (22/11 Đinh Mùi): Hội thề Đông Quan; theo nhiều tài liệu văn thề do Nguyễn Trãi soạn (Toàn thư không ghi rõ); quân Minh đình chỉ chiến sự, rút về nước (Báo Pháp luật).",
+  "Lê Lợi cấp thuyền (khoảng 500 chiếc), ngựa, lương thực cho quân Minh về nước; rút từ 29/12/1427, toán cuối rời đi 3/1/1428.",
+  "1428: Lê Lợi lên ngôi (Lê Thái Tổ), Nguyễn Trãi viết Bình Ngô đại cáo."
+ ],
+ "scenes": [
+  {
+   "key": "ctx",
+   "year": 1427.5,
+   "date_label": "1427",
+   "bg_motion": "still",
+   "narration": [
+    {
+     "text": "Năm *1427*, *khởi nghĩa Lam Sơn* chống quân Minh đã sang năm thứ mười.",
+     "say": "Năm một nghìn bốn trăm hai mươi bảy, khởi nghĩa Lam Sơn chống quân Minh đã sang năm thứ mười."
+    },
+    {
+     "text": "Nghĩa quân của *Lê Lợi* làm chủ phần lớn đất nước, và đang *vây chặt quân Minh* trong thành Đông Quan, tức Hà Nội ngày nay."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH",
+        "vn_label": "ĐẠI VIỆT"
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "leg",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "legend",
+       "args": {
+        "x": 1460,
+        "y": 40,
+        "items": [
+         [
+          "#E9A92B",
+          "Nghĩa quân Lam Sơn"
+         ],
+         [
+          "#C4453C",
+          "Quân Minh"
+         ]
+        ]
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "siege",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "kind": "fort",
+        "text": "Thành Đông Quan (Hà Nội)",
+        "dx": 0,
+        "dy": 110,
+        "size": 30
+       }
+      },
+      {
+       "fn": "siege_ring",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "r": 62
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1640,
+        "y": 420,
+        "r": 110,
+        "who": "leloi",
+        "name": "Lê Lợi",
+        "expr": "determined"
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 0.6
+    }
+   ],
+   "id": 1
+  },
+  {
+   "key": "hook",
+   "year": 1427.75,
+   "date_label": "10/1427",
+   "bg_motion": "still",
+   "narration": [
+    {
+     "text": "Để giải vây, nhà Minh gửi sang *mười lăm vạn viện binh*, chia hai đường tiến vào."
+    },
+    {
+     "text": "Vậy mà chỉ khoảng hai tháng sau, chính quân Minh phải *thề rút hết về nước*."
+    },
+    {
+     "text": "Chuyện gì đã xảy ra?"
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH",
+        "vn_label": "ĐẠI VIỆT"
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "kind": "fort",
+        "text": "Thành Đông Quan (Hà Nội)",
+        "dx": 0,
+        "dy": 110,
+        "size": 30
+       }
+      },
+      {
+       "fn": "siege_ring",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "r": 62
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      },
+      {
+       "fn": "legend",
+       "args": {
+        "x": 1460,
+        "y": 40,
+        "items": [
+         [
+          "#E9A92B",
+          "Nghĩa quân Lam Sơn"
+         ],
+         [
+          "#C4453C",
+          "Quân Minh"
+         ]
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "arrows",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Quảng Tây",
+         "Ải Pha Lũy",
+         "Chi Lăng"
+        ],
+        "view": "north",
+        "label": "Liễu Thăng · 10 vạn"
+       }
+      },
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Vân Nam",
+         [
+          23.2,
+          103.4
+         ],
+         "Lê Hoa"
+        ],
+        "view": "north",
+        "label": "Mộc Thạnh · 5 vạn"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "lt",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1720,
+        "y": 360,
+        "r": 95,
+        "who": "lieuthang",
+        "name": "Liễu Thăng",
+        "expr": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1400,
+        "y": 300,
+        "text": "15 vạn quân,|dẹp gọn trong|một nốt nhạc!",
+        "tx": 1620,
+        "ty": 330,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 2.2
+    },
+    {
+     "name": "q",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "text",
+       "args": {
+        "t": "?!",
+        "x": 1560,
+        "y": 760,
+        "size": 230,
+        "color": "#FFF7E2",
+        "stroke": "#2B1B12"
+       }
+      },
+      {
+       "fn": "emote",
+       "args": {
+        "x": 1810,
+        "y": 190,
+        "kind": "sweat",
+        "s": 1.2
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "id": 2
+  },
+  {
+   "key": "intro",
+   "timeline": false,
+   "bg_motion": "push_up",
+   "narration": [
+    {
+     "text": "Chào bạn, mình là *Tí*! Hôm nay Tí và Mít sẽ tóm tắt nhanh *chiến thắng Chi Lăng – Xương Giang*."
+    },
+    {
+     "text": "Nhưng để hiểu trận đánh này, hãy quay lại *hai mươi năm trước*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "dawn"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 760,
+        "color": "#8696A8",
+        "seed": 2,
+        "hmin": 200,
+        "hmax": 420
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 820,
+        "color": "#5E8A6E",
+        "seed": 4
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 800,
+        "side": "full"
+       }
+      }
+     ]
+    },
+    {
+     "name": "title",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "ribbon_title",
+       "args": {
+        "kicker": "TÍ XUYÊN SỬ · TÓM TẮT NHANH",
+        "title": "CHI LĂNG –|XƯƠNG GIANG",
+        "x": 760,
+        "y": 260,
+        "size": 120,
+        "sub": "Năm 1427"
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.2
+    },
+    {
+     "name": "ti",
+     "motion": "slide_in",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 420,
+        "y": 980,
+        "s": 0.95,
+        "pose": "wave",
+        "expr": "excited",
+        "glow": true
+       }
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 0.0,
+     "gain": 0.3
+    }
+   ],
+   "id": 3
+  },
+  {
+   "key": "y1407",
+   "year": 1407,
+   "date_label": "1407",
+   "narration": [
+    {
+     "text": "Năm *1407*, nhà Minh đánh bại nhà Hồ và đặt ách đô hộ lên nước ta.",
+     "say": "Năm một nghìn bốn trăm linh bảy, nhà Minh đánh bại nhà Hồ và đặt ách đô hộ lên nước ta."
+    },
+    {
+     "text": "Hai mươi năm sau đó là thời kỳ *đô hộ hà khắc*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#C4453C",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH"
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "NHÀ MINH ĐÔ HỘ 1407–1427",
+        "x": 760,
+        "y": 420,
+        "size": 44,
+        "fill": "#2B1B12"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "chains",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "chains",
+       "args": {
+        "x": 620,
+        "y": 520,
+        "s": 1.3
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "host",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 1800,
+        "y": 470,
+        "s": 0.4,
+        "pose": "think",
+        "expr": "worried",
+        "flip": true
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1640,
+        "y": 160,
+        "text": "Khổ thân|dân mình…",
+        "tx": 1770,
+        "ty": 230,
+        "size": 28
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 4
+  },
+  {
+   "key": "tax",
+   "year": 1410,
+   "date_label": "1407–1427",
+   "bg_motion": "left",
+   "narration": [
+    {
+     "text": "*Thuế nặng*: dân phải nộp đủ thứ, từ thóc gạo, muối, cho đến sản vật quý."
+    },
+    {
+     "text": "Nộp xong rồi, vẫn bị bắt nộp thêm."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "storm"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 600,
+        "color": "#7C8A86",
+        "seed": 41,
+        "hmin": 150,
+        "hmax": 280
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 600,
+        "side": "full",
+        "color": "#9AA56A"
+       }
+      },
+      {
+       "fn": "hut",
+       "args": {
+        "x": 1500,
+        "y": 760,
+        "s": 1.1
+       }
+      },
+      {
+       "fn": "hut",
+       "args": {
+        "x": 260,
+        "y": 720,
+        "s": 0.8
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "THUẾ NẶNG",
+        "x": 960,
+        "y": 100,
+        "size": 56,
+        "fill": "#8E2A24"
+       }
+      }
+     ]
+    },
+    {
+     "name": "sacks",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "sacks",
+       "args": {
+        "x": 1120,
+        "y": 840,
+        "n": 9,
+        "s": 1.1,
+        "label": "Thóc · Muối · Ngọc"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "off",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "official_fig",
+       "args": {
+        "x": 820,
+        "y": 920,
+        "s": 1.6,
+        "expr": "smug",
+        "item": "ledger"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 620,
+        "y": 300,
+        "text": "Còn thiếu!|Nộp thêm đi!",
+        "tx": 760,
+        "ty": 610,
+        "kind": "shout",
+        "size": 36
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.0
+    },
+    {
+     "name": "ppl",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 1380,
+        "y": 930,
+        "s": 1.5,
+        "pose": "carry",
+        "expr": "sweat",
+        "flip": true
+       }
+      },
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 1640,
+        "y": 930,
+        "s": 1.4,
+        "pose": "bow",
+        "expr": "cry",
+        "flip": true
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1640,
+        "y": 420,
+        "text": "Hết sạch|rồi ạ…",
+        "tx": 1660,
+        "ty": 640,
+        "size": 34
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 2.0
+    }
+   ],
+   "id": 5
+  },
+  {
+   "key": "labor",
+   "year": 1413,
+   "date_label": "1407–1427",
+   "narration": [
+    {
+     "text": "*Lao dịch nặng nề*: rất nhiều người bị bắt đi khai mỏ, mò ngọc trai, đắp thành, làm đường."
+    },
+    {
+     "text": "Làm quần quật, mà không được trả công."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "storm"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 640,
+        "color": "#6F7A74",
+        "seed": 43,
+        "hmin": 200,
+        "hmax": 360
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 640,
+        "side": "full",
+        "color": "#8F8A62"
+       }
+      },
+      {
+       "fn": "mine",
+       "args": {
+        "x": 1500,
+        "y": 700,
+        "s": 1.1
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "LAO DỊCH",
+        "x": 960,
+        "y": 100,
+        "size": 56,
+        "fill": "#8E2A24"
+       }
+      }
+     ]
+    },
+    {
+     "name": "haul",
+     "motion": "drift_left",
+     "elements": [
+      {
+       "fn": "rope",
+       "args": {
+        "x1": 330,
+        "y1": 790,
+        "x2": 900,
+        "y2": 820
+       }
+      },
+      {
+       "fn": "stone_block",
+       "args": {
+        "x": 1000,
+        "y": 830,
+        "s": 1.2
+       }
+      },
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 330,
+        "y": 900,
+        "s": 1.35,
+        "pose": "haul",
+        "expr": "sweat",
+        "flip": true
+       }
+      },
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 470,
+        "y": 910,
+        "s": 1.35,
+        "pose": "haul",
+        "expr": "tired",
+        "flip": true
+       }
+      },
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 610,
+        "y": 920,
+        "s": 1.35,
+        "pose": "haul",
+        "expr": "sweat",
+        "flip": true
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "guard",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 1400,
+        "y": 870,
+        "cols": 1,
+        "rows": 1,
+        "side": "minh",
+        "pose": "spear",
+        "s": 2.2,
+        "gap": 40,
+        "flags": 0,
+        "mood": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1340,
+        "y": 360,
+        "text": "Nhanh lên!|Chậm là ăn đòn!",
+        "tx": 1330,
+        "ty": 660,
+        "kind": "shout",
+        "size": 34
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.6
+    },
+    {
+     "name": "fx",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "emote",
+       "args": {
+        "x": 470,
+        "y": 640,
+        "kind": "sweat",
+        "s": 1.3
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 560,
+        "y": 420,
+        "text": "Ối… lưng|tôi…",
+        "tx": 490,
+        "ty": 620,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 6
+  },
+  {
+   "key": "assim",
+   "year": 1416,
+   "date_label": "1407–1427",
+   "narration": [
+    {
+     "text": "Và *chính sách đồng hoá*: sách vở bị thu gom, tiêu huỷ, phong tục bị ép theo người Minh."
+    },
+    {
+     "text": "Nhà Minh muốn người Việt dần quên đi gốc gác của mình."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "dawn"
+       }
+      },
+      {
+       "fn": "dim",
+       "args": {
+        "opacity": 0.25
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 620,
+        "side": "full",
+        "color": "#8C8A5E"
+       }
+      },
+      {
+       "fn": "hut",
+       "args": {
+        "x": 1650,
+        "y": 720,
+        "s": 0.9
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "ĐỒNG HOÁ",
+        "x": 960,
+        "y": 100,
+        "size": 56,
+        "fill": "#8E2A24"
+       }
+      }
+     ]
+    },
+    {
+     "name": "fire",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "fire",
+       "args": {
+        "x": 960,
+        "y": 860,
+        "s": 1.5
+       }
+      },
+      {
+       "fn": "books",
+       "args": {
+        "x": 960,
+        "y": 850,
+        "n": 7,
+        "s": 1.2
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "crate",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "crate",
+       "args": {
+        "x": 520,
+        "y": 820,
+        "s": 1.4,
+        "label": "Sách Đại Việt"
+       }
+      },
+      {
+       "fn": "troops",
+       "args": {
+        "x": 320,
+        "y": 930,
+        "cols": 1,
+        "rows": 1,
+        "side": "minh",
+        "pose": "spear",
+        "s": 2.0,
+        "gap": 40,
+        "flags": 0,
+        "mood": "smug"
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.0
+    },
+    {
+     "name": "scholar",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "peasant",
+       "args": {
+        "x": 1400,
+        "y": 930,
+        "s": 1.5,
+        "pose": "reach",
+        "expr": "cry",
+        "flip": true,
+        "shirt": "#3F6A8A",
+        "hat": false
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1480,
+        "y": 420,
+        "text": "Sách của|ông cha ta…",
+        "tx": 1420,
+        "ty": 640,
+        "size": 32
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 2.5
+    },
+    {
+     "name": "host",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 1790,
+        "y": 860,
+        "s": 0.5,
+        "pose": "think",
+        "expr": "worried",
+        "flip": true
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 7
+  },
+  {
+   "key": "y1418",
+   "year": 1418,
+   "date_label": "1418",
+   "narration": [
+    {
+     "text": "Năm *1418*, *Lê Lợi* dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hoá.",
+     "say": "Năm một nghìn bốn trăm mười tám, Lê Lợi dựng cờ khởi nghĩa ở Lam Sơn, Thanh Hoá."
+    },
+    {
+     "text": "Bên cạnh ông là *Nguyễn Trãi*, người đưa ra nhiều mưu kế quan trọng."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#C4453C",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH"
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "lamson",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Lam Sơn",
+        "view": "north",
+        "kind": "star",
+        "dy": -50,
+        "size": 34
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "p1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1330,
+        "y": 330,
+        "r": 120,
+        "who": "leloi",
+        "name": "Lê Lợi",
+        "expr": "determined"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "p2",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1640,
+        "y": 330,
+        "r": 120,
+        "who": "nguyentrai",
+        "name": "Nguyễn Trãi",
+        "expr": "wink"
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 8
+  },
+  {
+   "key": "y1426",
+   "year": 1426.9,
+   "date_label": "cuối 1426",
+   "narration": [
+    {
+     "text": "Sau nhiều năm chiến đấu, đến cuối năm *1426*, sau trận Tốt Động – Chúc Động, tướng Minh *Vương Thông* phải rút vào thành Đông Quan và bị vây chặt.",
+     "say": "Sau nhiều năm chiến đấu, đến cuối năm một nghìn bốn trăm hai mươi sáu, sau trận Tốt Động, Chúc Động, tướng Minh Vương Thông phải rút vào thành Đông Quan và bị vây chặt."
+    },
+    {
+     "text": "Đó là lúc nhà Minh quyết định *gửi viện binh*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH"
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "dq",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Tốt Động",
+        "view": "north",
+        "kind": "city",
+        "text": "Tốt Động",
+        "dx": -200,
+        "dy": -40,
+        "size": 28
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "kind": "fort",
+        "text": "Thành Đông Quan (Hà Nội)",
+        "dx": 0,
+        "dy": 110,
+        "size": 30
+       }
+      },
+      {
+       "fn": "siege_ring",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "r": 62
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.5
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1560,
+        "y": 330,
+        "r": 120,
+        "who": "vuongthong",
+        "name": "Vương Thông",
+        "mark": "target",
+        "expr": "sweat"
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 4.0
+    },
+    {
+     "name": "host",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 1800,
+        "y": 470,
+        "s": 0.4,
+        "pose": "point",
+        "expr": "happy",
+        "flip": true
+       }
+      }
+     ]
+    }
+   ],
+   "id": 9
+  },
+  {
+   "key": "reinf",
+   "year": 1427.75,
+   "date_label": "10/1427",
+   "narration": [
+    {
+     "text": "Tháng 10 năm *1427*, hai đạo viện binh lên đường.",
+     "say": "Tháng mười năm một nghìn bốn trăm hai mươi bảy, hai đạo viện binh lên đường."
+    },
+    {
+     "text": "Theo sử Việt, *Liễu Thăng* dẫn mười vạn quân, hai vạn ngựa, theo đường Lạng Sơn.",
+     "say": "Theo sử Việt, Liễu Thăng dẫn mười vạn quân, và hai vạn ngựa, theo đường Lạng Sơn."
+    },
+    {
+     "text": "*Mộc Thạnh* dẫn năm vạn quân, một vạn ngựa, theo đường Vân Nam.",
+     "say": "Mộc Thạnh dẫn năm vạn quân, và một vạn ngựa, theo đường Vân Nam."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH"
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "north",
+        "kind": "fort",
+        "text": "Đông Quan",
+        "dx": -60,
+        "dy": 58,
+        "size": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "a1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Quảng Tây",
+         "Ải Pha Lũy",
+         "Chi Lăng"
+        ],
+        "view": "north"
+       }
+      },
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "10 vạn quân · 2 vạn ngựa",
+        "x": 1320,
+        "y": 290,
+        "size": 36,
+        "fill": "#C4453C"
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1700,
+        "y": 230,
+        "r": 95,
+        "who": "lieuthang",
+        "name": "Liễu Thăng",
+        "expr": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1480,
+        "y": 420,
+        "text": "Mười vạn quân,|sợ gì?!",
+        "tx": 1650,
+        "ty": 300,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "a2",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Vân Nam",
+         [
+          23.2,
+          103.4
+         ],
+         "Lê Hoa"
+        ],
+        "view": "north"
+       }
+      },
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "5 vạn quân · 1 vạn ngựa",
+        "x": 560,
+        "y": 200,
+        "size": 36,
+        "fill": "#C4453C"
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 420,
+        "y": 330,
+        "r": 95,
+        "who": "mocthanh",
+        "name": "Mộc Thạnh"
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "id": 10
+  },
+  {
+   "key": "plan",
+   "year": 1427.76,
+   "date_label": "10/1427",
+   "narration": [
+    {
+     "text": "Bộ chỉ huy nghĩa quân quyết định: dồn sức *tiêu diệt đạo quân mạnh nhất* của Liễu Thăng trước."
+    },
+    {
+     "text": "Còn với Mộc Thạnh, chỉ cần *giữ vững, cầm chân* ở biên giới."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "day"
+       }
+      },
+      {
+       "fn": "dim",
+       "args": {
+        "opacity": 0.08
+       }
+      }
+     ]
+    },
+    {
+     "name": "boss",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 960,
+        "y": 200,
+        "r": 110,
+        "who": "leloi",
+        "name": "Bộ chỉ huy Lam Sơn",
+        "expr": "wink"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1360,
+        "y": 150,
+        "text": "Đánh con hổ|đầu đàn trước!",
+        "tx": 1070,
+        "ty": 200,
+        "size": 30
+       }
+      }
+     ]
+    },
+    {
+     "name": "left",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "panel",
+       "args": {
+        "x": 260,
+        "y": 370,
+        "w": 620,
+        "h": 440,
+        "header": "ĐÁNH TRƯỚC",
+        "header_fill": "#C4453C"
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 570,
+        "y": 610,
+        "r": 115,
+        "who": "lieuthang",
+        "name": "Liễu Thăng",
+        "mark": "target",
+        "expr": "angry"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "right",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "panel",
+       "args": {
+        "x": 1040,
+        "y": 370,
+        "w": 620,
+        "h": 440,
+        "header": "CẦM CHÂN",
+        "header_fill": "#3D4657"
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1350,
+        "y": 610,
+        "r": 115,
+        "who": "mocthanh",
+        "name": "Mộc Thạnh",
+        "expr": "scared"
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 11
+  },
+  {
+   "key": "gorge",
+   "year": 1427.76,
+   "date_label": "10/1427",
+   "bg_motion": "push_down",
+   "narration": [
+    {
+     "text": "Nơi được chọn là *ải Chi Lăng*, ở Lạng Sơn."
+    },
+    {
+     "text": "Đây là một thung lũng hẹp, hai bên là *núi đá dựng đứng*, lòng thung lũng lầy lội."
+    },
+    {
+     "text": "Quân đông đến mấy vào đây cũng phải dàn thành *hàng dài*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "gorge2",
+       "args": {
+        "floor": 600,
+        "mood": "day",
+        "seed": 5
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "ẢI CHI LĂNG · LẠNG SƠN",
+        "x": 960,
+        "y": 100,
+        "size": 44,
+        "fill": "#2B1B12"
+       }
+      }
+     ]
+    },
+    {
+     "name": "col",
+     "motion": "drift_left",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 960,
+        "y": 720,
+        "cols": 14,
+        "rows": 2,
+        "side": "minh",
+        "pose": "spear",
+        "s": 0.62,
+        "gap": 42,
+        "flags": 3,
+        "seed": 4
+       }
+      }
+     ],
+     "appear": 2
+    },
+    {
+     "name": "host",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 1800,
+        "y": 470,
+        "s": 0.4,
+        "pose": "point",
+        "expr": "surprised",
+        "flip": true
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1640,
+        "y": 160,
+        "text": "Vào đây rồi|thì… toang!",
+        "tx": 1770,
+        "ty": 230,
+        "size": 28
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "id": 12
+  },
+  {
+   "key": "lure",
+   "year": 1427.77,
+   "date_label": "10/1427",
+   "narration": [
+    {
+     "text": "Tướng *Trần Lựu* được giao nhiệm vụ nhử địch."
+    },
+    {
+     "text": "Ông đánh vài trận rồi *giả thua*, lui dần, để Liễu Thăng hăm hở đuổi theo vào sâu trong ải."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "gorge2",
+       "args": {
+        "floor": 600,
+        "mood": "day",
+        "seed": 7
+       }
+      }
+     ]
+    },
+    {
+     "name": "dust",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "dust",
+       "args": {
+        "x": 760,
+        "y": 770,
+        "w": 380,
+        "opacity": 0.5
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "dv",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 1200,
+        "y": 780,
+        "cols": 4,
+        "rows": 1,
+        "side": "dv",
+        "pose": "sword",
+        "s": 1.0,
+        "gap": 46,
+        "flip": true,
+        "flags": 1,
+        "seed": 2,
+        "mood": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1450,
+        "y": 520,
+        "text": "Chạy… chạy|giả vờ thôi!",
+        "tx": 1260,
+        "ty": 640,
+        "size": 30
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1650,
+        "y": 380,
+        "r": 70,
+        "who": "dv_soldier",
+        "expr": "wink"
+       }
+      }
+     ]
+    },
+    {
+     "name": "minh",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 720,
+        "y": 800,
+        "cols": 4,
+        "rows": 2,
+        "side": "minh",
+        "cavalry": true,
+        "s": 1.0,
+        "gap": 58,
+        "flip": true,
+        "flags": 1,
+        "seed": 5,
+        "mood": "charge"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 560,
+        "y": 470,
+        "text": "ĐUỔI THEO!!",
+        "tx": 680,
+        "ty": 620,
+        "kind": "shout",
+        "size": 36
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 230,
+        "y": 230,
+        "r": 110,
+        "who": "tranluu",
+        "name": "Trần Lựu",
+        "expr": "wink"
+       }
+      }
+     ],
+     "appear": 0
+    }
+   ],
+   "id": 13
+  },
+  {
+   "key": "mayen",
+   "year": 1427.77,
+   "date_label": "10/1427",
+   "bg_motion": "push_up",
+   "narration": [
+    {
+     "text": "Theo nhiều tài liệu, ngày *10 tháng 10*, Liễu Thăng dẫn hơn một trăm kỵ binh đi trước.",
+     "say": "Theo nhiều tài liệu, ngày mười tháng mười, Liễu Thăng dẫn hơn một trăm kỵ binh đi trước."
+    },
+    {
+     "text": "Đến *núi Mã Yên*, trống trận bỗng nổi lên, quân phục kích từ hai bên sườn núi ào ra."
+    },
+    {
+     "text": "*Liễu Thăng tử trận* ngay tại chỗ."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "gorge2",
+       "args": {
+        "floor": 600,
+        "mood": "storm",
+        "seed": 9
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "NÚI MÃ YÊN",
+        "x": 960,
+        "y": 100,
+        "size": 44,
+        "fill": "#2B1B12"
+       }
+      }
+     ]
+    },
+    {
+     "name": "dust",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "dust",
+       "args": {
+        "x": 960,
+        "y": 780,
+        "w": 520,
+        "opacity": 0.45
+       }
+      }
+     ]
+    },
+    {
+     "name": "cav",
+     "motion": "shake",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 960,
+        "y": 790,
+        "cols": 5,
+        "rows": 2,
+        "side": "minh",
+        "cavalry": true,
+        "s": 1.05,
+        "gap": 60,
+        "flags": 1,
+        "seed": 8,
+        "mood": "panic"
+       }
+      }
+     ]
+    },
+    {
+     "name": "cavfx",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "emote",
+       "args": {
+        "x": 820,
+        "y": 560,
+        "kind": "!!",
+        "s": 1.0
+       }
+      },
+      {
+       "fn": "emote",
+       "args": {
+        "x": 1120,
+        "y": 560,
+        "kind": "lines",
+        "s": 1.0
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1260,
+        "y": 430,
+        "text": "Ơ… lầy quá!|PHỤC BINH!!",
+        "tx": 1080,
+        "ty": 600,
+        "kind": "shout",
+        "size": 32
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1470,
+        "y": 640,
+        "r": 78,
+        "who": "minh_soldier",
+        "expr": "scared"
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 0.6
+    },
+    {
+     "name": "amb_l",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 300,
+        "y": 470,
+        "cols": 5,
+        "rows": 2,
+        "side": "dv",
+        "pose": "bow",
+        "s": 1.0,
+        "gap": 42,
+        "flags": 1,
+        "seed": 1,
+        "mood": "charge"
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "amb_r",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 1620,
+        "y": 470,
+        "cols": 5,
+        "rows": 2,
+        "side": "dv",
+        "pose": "spear",
+        "s": 1.0,
+        "gap": 42,
+        "flip": true,
+        "flags": 1,
+        "seed": 6,
+        "mood": "charge"
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "volley",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 360,
+        "y0": 380,
+        "x1": 940,
+        "y1": 720,
+        "n": 18,
+        "seed": 3
+       }
+      },
+      {
+       "fn": "rocks",
+       "args": {
+        "x": 1430,
+        "y": 600,
+        "n": 4
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 1.2
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 960,
+        "y": 300,
+        "r": 120,
+        "who": "lieuthang",
+        "name": "Liễu Thăng",
+        "mark": "x",
+        "expr": "shock"
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 4.6,
+     "gain": 0.3
+    },
+    {
+     "type": "crash",
+     "at": 6.0,
+     "gain": 0.22
+    }
+   ],
+   "id": 14
+  },
+  {
+   "key": "route",
+   "year": 1427.78,
+   "date_label": "10/1427",
+   "bg_motion": "left",
+   "narration": [
+    {
+     "text": "Phó tướng *Lương Minh* lên thay, tiếp tục kéo quân về phía nam."
+    },
+    {
+     "text": "Ở *Cần Trạm*, họ lại bị phục kích, Lương Minh tử trận."
+    },
+    {
+     "text": "Đến *Phố Cát*, thượng thư *Lý Khánh* cùng đường phải tự vẫn."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "front",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "river": false
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Chi Lăng",
+        "view": "front",
+        "kind": "battle",
+        "dx": 150,
+        "dy": 10,
+        "size": 30
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Xương Giang",
+        "view": "front",
+        "kind": "fort",
+        "dx": 70,
+        "dy": 62,
+        "size": 30
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "front",
+        "kind": "fort",
+        "dy": -56,
+        "size": 30
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Lạng Sơn",
+        "view": "front",
+        "kind": "city",
+        "dx": 120,
+        "dy": 0,
+        "size": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "front",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "route",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Ải Pha Lũy",
+         "Lạng Sơn",
+         "Chi Lăng",
+         "Cần Trạm",
+         "Phố Cát",
+         [
+          21.31,
+          106.24
+         ]
+        ],
+        "view": "front",
+        "width": 22
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "hit1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Cần Trạm",
+        "view": "front",
+        "kind": "battle",
+        "dx": 170,
+        "dy": 10,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "hit2",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Phố Cát",
+        "view": "front",
+        "kind": "battle",
+        "dx": -150,
+        "dy": -55,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 2
+    },
+    {
+     "name": "p1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1480,
+        "y": 640,
+        "r": 100,
+        "who": "luongminh",
+        "name": "Lương Minh",
+        "mark": "x",
+        "expr": "scared"
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 1.6
+    },
+    {
+     "name": "p2",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1730,
+        "y": 640,
+        "r": 100,
+        "who": "lykhanh",
+        "name": "Lý Khánh",
+        "mark": "x",
+        "expr": "cry"
+       }
+      }
+     ],
+     "appear": 2,
+     "appear_delay": 1.8
+    }
+   ],
+   "id": 15
+  },
+  {
+   "key": "xg",
+   "year": 1427.8,
+   "date_label": "10/1427",
+   "narration": [
+    {
+     "text": "Tàn quân Minh cố tiến về *thành Xương Giang* để nương tựa.",
+     "say": "Tàn quân Minh, cố tiến về thành Xương Giang, để nương tựa.",
+     "rate": "-1%"
+    },
+    {
+     "text": "Nhưng thành này *đã bị nghĩa quân hạ* từ trước.",
+     "rate": "-1%"
+    },
+    {
+     "text": "Họ đành đóng trại giữa *cánh đồng trống*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "day"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 560,
+        "color": "#7FA38A",
+        "seed": 12,
+        "hmin": 160,
+        "hmax": 300
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 540,
+        "side": "full",
+        "color": "#9DB66A"
+       }
+      }
+     ]
+    },
+    {
+     "name": "fort",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "fortress",
+       "args": {
+        "x": 1260,
+        "y": 640,
+        "s": 0.9,
+        "flag": "#E9A92B",
+        "label": "THÀNH XƯƠNG GIANG"
+       }
+      }
+     ]
+    },
+    {
+     "name": "dvflag",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "map_tag",
+       "args": {
+        "text": "Nghĩa quân đã chiếm",
+        "x": 1260,
+        "y": 230,
+        "size": 34,
+        "fill": "#E9A92B",
+        "color": "#2B1B12"
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "camp",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "camp",
+       "args": {
+        "x": 180,
+        "y": 820,
+        "n": 6,
+        "s": 0.9,
+        "color": "#C4453C"
+       }
+      },
+      {
+       "fn": "troops",
+       "args": {
+        "x": 560,
+        "y": 900,
+        "cols": 6,
+        "rows": 2,
+        "side": "minh",
+        "pose": "spear",
+        "s": 0.75,
+        "gap": 40,
+        "flags": 1,
+        "seed": 13,
+        "mood": "panic"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 620,
+        "y": 560,
+        "text": "Ơ… thành|mất rồi à?!",
+        "tx": 560,
+        "ty": 760,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 2
+    },
+    {
+     "name": "host",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 1800,
+        "y": 470,
+        "s": 0.4,
+        "pose": "point",
+        "expr": "surprised",
+        "flip": true
+       }
+      }
+     ]
+    }
+   ],
+   "id": 16
+  },
+  {
+   "key": "encircle",
+   "year": 1427.84,
+   "date_label": "11/1427",
+   "narration": [
+    {
+     "text": "Nghĩa quân *vây kín bốn mặt*, rồi tổng tấn công."
+    },
+    {
+     "text": "Hàng vạn quân Minh bị tiêu diệt hoặc bị bắt."
+    },
+    {
+     "text": "Tướng *Thôi Tụ* và thượng thư *Hoàng Phúc* bị bắt sống."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "storm"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 520,
+        "color": "#6E7F78",
+        "seed": 15,
+        "hmin": 140,
+        "hmax": 260
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 500,
+        "side": "full",
+        "color": "#8FA35E"
+       }
+      },
+      {
+       "fn": "camp",
+       "args": {
+        "x": 620,
+        "y": 640,
+        "n": 7,
+        "s": 0.8,
+        "color": "#C4453C"
+       }
+      }
+     ]
+    },
+    {
+     "name": "minh",
+     "motion": "shake",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 960,
+        "y": 780,
+        "cols": 7,
+        "rows": 2,
+        "side": "minh",
+        "pose": "spear",
+        "s": 0.8,
+        "gap": 40,
+        "flags": 1,
+        "seed": 21,
+        "mood": "panic"
+       }
+      },
+      {
+       "fn": "emote",
+       "args": {
+        "x": 960,
+        "y": 600,
+        "kind": "!!",
+        "s": 0.9
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1440,
+        "y": 470,
+        "r": 72,
+        "who": "minh_soldier",
+        "expr": "shock"
+       }
+      }
+     ]
+    },
+    {
+     "name": "l",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 280,
+        "y": 880,
+        "cols": 6,
+        "rows": 3,
+        "side": "dv",
+        "pose": "mix",
+        "s": 1.05,
+        "gap": 42,
+        "flags": 2,
+        "seed": 11,
+        "mood": "charge"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "r",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 1640,
+        "y": 880,
+        "cols": 6,
+        "rows": 3,
+        "side": "dv",
+        "pose": "mix",
+        "s": 1.05,
+        "gap": 42,
+        "flip": true,
+        "flags": 2,
+        "seed": 12,
+        "mood": "charge"
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 0.6
+    },
+    {
+     "name": "fx",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 300,
+        "y0": 640,
+        "x1": 900,
+        "y1": 720,
+        "n": 12,
+        "seed": 5
+       }
+      },
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 1620,
+        "y0": 640,
+        "x1": 1020,
+        "y1": 720,
+        "n": 12,
+        "seed": 6
+       }
+      },
+      {
+       "fn": "dust",
+       "args": {
+        "x": 960,
+        "y": 800,
+        "w": 600,
+        "opacity": 0.4
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 760,
+        "y": 230,
+        "r": 105,
+        "who": "thoitu",
+        "name": "Thôi Tụ",
+        "mark": "captured",
+        "expr": "sad"
+       }
+      },
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1160,
+        "y": 230,
+        "r": 105,
+        "who": "hoangphuc",
+        "name": "Hoàng Phúc",
+        "mark": "captured",
+        "expr": "cry"
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crash",
+     "at": 1.0,
+     "gain": 0.25
+    }
+   ],
+   "id": 17
+  },
+  {
+   "key": "flee",
+   "year": 1427.86,
+   "date_label": "11/1427",
+   "narration": [
+    {
+     "text": "Ở biên giới tây bắc, Mộc Thạnh nghe tin Liễu Thăng tử trận thì *hoảng sợ rút chạy*."
+    },
+    {
+     "text": "Nghĩa quân thừa thắng *truy kích*, quân Minh thiệt hại nặng."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "north",
+        "vn": "#E9A92B",
+        "cn": "#D8CDB6",
+        "cn_label": "NHÀ MINH"
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Lê Hoa",
+        "view": "north",
+        "kind": "city",
+        "dx": -10,
+        "dy": 60,
+        "size": 28
+       }
+      }
+     ]
+    },
+    {
+     "name": "loc",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_locator",
+       "args": {
+        "view": "north",
+        "x": 20,
+        "y": 470,
+        "w": 260,
+        "h": 460
+       }
+      }
+     ]
+    },
+    {
+     "name": "flee",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         "Lê Hoa",
+         [
+          23.2,
+          103.4
+         ],
+         "Vân Nam"
+        ],
+        "view": "north",
+        "dashed": true,
+        "label": "Mộc Thạnh rút chạy",
+        "label_dy": -60
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "chase",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         [
+          21.75,
+          105.0
+         ],
+         [
+          22.2,
+          104.4
+         ],
+         [
+          22.6,
+          104.05
+         ]
+        ],
+        "view": "north",
+        "color": "#7A3E00",
+        "width": 26,
+        "label": "Nghĩa quân truy kích",
+        "label_at": 0.2,
+        "label_dy": 60
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1580,
+        "y": 300,
+        "r": 110,
+        "who": "mocthanh",
+        "name": "Mộc Thạnh",
+        "mark": "flee",
+        "expr": "sweat"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1400,
+        "y": 250,
+        "text": "CHẠY THÔI!!!",
+        "tx": 1500,
+        "ty": 290,
+        "kind": "shout",
+        "size": 34
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.0
+    }
+   ],
+   "id": 18
+  },
+  {
+   "key": "vt",
+   "year": 1427.9,
+   "date_label": "11/1427",
+   "narration": [
+    {
+     "text": "Trong thành Đông Quan, Vương Thông *mất hết hy vọng* được cứu viện."
+    },
+    {
+     "text": "Ông buộc phải *xin hoà*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "storm"
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 640,
+        "side": "full",
+        "color": "#7F955A"
+       }
+      },
+      {
+       "fn": "fortress",
+       "args": {
+        "x": 860,
+        "y": 660,
+        "s": 1.0,
+        "flag": "#C4453C",
+        "label": "THÀNH ĐÔNG QUAN"
+       }
+      }
+     ]
+    },
+    {
+     "name": "wf",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "white_flag",
+       "args": {
+        "x": 1020,
+        "y": 330,
+        "s": 1.0
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "p",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1560,
+        "y": 330,
+        "r": 120,
+        "who": "vuongthong",
+        "name": "Vương Thông",
+        "expr": "sad"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1560,
+        "y": 110,
+        "text": "Viện binh đâu|hết rồi…",
+        "tx": 1520,
+        "ty": 210,
+        "kind": "think",
+        "size": 28
+       }
+      }
+     ],
+     "appear": 0
+    }
+   ],
+   "id": 19
+  },
+  {
+   "key": "oath",
+   "year": 1427.94,
+   "date_label": "10/12/1427",
+   "narration": [
+    {
+     "text": "Ngày *10 tháng 12 năm 1427*, *Hội thề Đông Quan* diễn ra.",
+     "say": "Ngày mười tháng mười hai năm một nghìn bốn trăm hai mươi bảy, Hội thề Đông Quan diễn ra."
+    },
+    {
+     "text": "Theo nhiều tài liệu, văn thề do *Nguyễn Trãi* soạn. Quân Minh cam kết *đình chỉ chiến sự* và *rút hết về nước*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "day"
+       }
+      },
+      {
+       "fn": "dim",
+       "args": {
+        "opacity": 0.12
+       }
+      }
+     ]
+    },
+    {
+     "name": "doc",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "scroll_doc",
+       "args": {
+        "x": 960,
+        "y": 450,
+        "w": 700,
+        "h": 600,
+        "title": "HỘI THỀ ĐÔNG QUAN",
+        "lines": [
+         "Ngày 10 tháng 12 năm 1427",
+         "",
+         "· Đình chỉ chiến sự",
+         "· Quân Minh rút hết về nước"
+        ],
+        "size": 40
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "p1",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 300,
+        "y": 420,
+        "r": 130,
+        "who": "leloi",
+        "name": "Lê Lợi",
+        "expr": "happy"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "p2",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 1620,
+        "y": 420,
+        "r": 130,
+        "who": "vuongthong",
+        "name": "Vương Thông",
+        "expr": "sweat"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "p3",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 300,
+        "y": 780,
+        "r": 80,
+        "who": "nguyentrai",
+        "name": "Nguyễn Trãi soạn văn thề",
+        "name_size": 24,
+        "expr": "happy"
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 20
+  },
+  {
+   "key": "humane",
+   "year": 1428.02,
+   "date_label": "1/1428",
+   "bg_motion": "right",
+   "narration": [
+    {
+     "text": "Điều đặc biệt: nghĩa quân *không trả thù*."
+    },
+    {
+     "text": "Lê Lợi còn *cấp thuyền, ngựa và lương thực* cho quân Minh về nước."
+    },
+    {
+     "text": "Đến đầu năm *1428*, quân Minh rút hết khỏi Đại Việt.",
+     "say": "Đến đầu năm một nghìn bốn trăm hai mươi tám, quân Minh rút hết khỏi Đại Việt."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "dawn"
+       }
+      },
+      {
+       "fn": "karst",
+       "args": {
+        "base": 560,
+        "color": "#7C8FA0",
+        "seed": 31
+       }
+      },
+      {
+       "fn": "river",
+       "args": {
+        "top": 540
+       }
+      },
+      {
+       "fn": "bank",
+       "args": {
+        "y": 760,
+        "side": "left",
+        "color": "#7FA35E"
+       }
+      }
+     ]
+    },
+    {
+     "name": "boats",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "boat_supply",
+       "args": {
+        "x": 900,
+        "y": 700,
+        "s": 1.1
+       }
+      },
+      {
+       "fn": "boat_supply",
+       "args": {
+        "x": 1400,
+        "y": 640,
+        "s": 0.8
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "horses",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "horse",
+       "args": {
+        "x": 180,
+        "y": 900,
+        "s": 0.9
+       }
+      },
+      {
+       "fn": "horse",
+       "args": {
+        "x": 380,
+        "y": 930,
+        "s": 0.8
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 1.2
+    },
+    {
+     "name": "army",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "troops",
+       "args": {
+        "x": 1300,
+        "y": 620,
+        "cols": 6,
+        "rows": 1,
+        "side": "minh",
+        "pose": "spear",
+        "s": 0.6,
+        "gap": 40,
+        "flags": 0,
+        "seed": 31,
+        "mood": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1420,
+        "y": 420,
+        "text": "Đa tạ!|Đa tạ!",
+        "tx": 1320,
+        "ty": 540,
+        "size": 30
+       }
+      },
+      {
+       "fn": "emote",
+       "args": {
+        "x": 1600,
+        "y": 430,
+        "kind": "heart",
+        "s": 0.9
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "id": 21
+  },
+  {
+   "key": "bnđc",
+   "year": 1428.3,
+   "date_label": "1428",
+   "narration": [
+    {
+     "text": "Năm *1428*, Lê Lợi lên ngôi hoàng đế, mở ra *nhà Hậu Lê*.",
+     "say": "Năm một nghìn bốn trăm hai mươi tám, Lê Lợi lên ngôi hoàng đế, mở ra nhà Hậu Lê."
+    },
+    {
+     "text": "Nguyễn Trãi viết *Bình Ngô đại cáo*, như một bản tuyên ngôn về nền độc lập của Đại Việt."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "dawn"
+       }
+      },
+      {
+       "fn": "dim",
+       "args": {
+        "opacity": 0.1
+       }
+      }
+     ]
+    },
+    {
+     "name": "p1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "portrait",
+       "args": {
+        "x": 330,
+        "y": 420,
+        "r": 150,
+        "who": "leloi",
+        "name": "Lê Thái Tổ (Lê Lợi)",
+        "expr": "happy"
+       }
+      }
+     ],
+     "appear": 0
+    },
+    {
+     "name": "doc",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "scroll_doc",
+       "args": {
+        "x": 1180,
+        "y": 450,
+        "w": 880,
+        "h": 560,
+        "title": "BÌNH NGÔ ĐẠI CÁO",
+        "lines": [
+         "“Như nước Đại Việt ta từ trước,",
+         "vốn xưng nền văn hiến đã lâu…”",
+         "",
+         "— Nguyễn Trãi, 1428"
+        ],
+        "size": 42
+       }
+      }
+     ],
+     "appear": 1
+    }
+   ],
+   "id": 22
+  },
+  {
+   "key": "lessons",
+   "year": 1428.3,
+   "date_label": "1428",
+   "narration": [
+    {
+     "text": "Tóm lại, nghĩa quân thắng nhờ *ba điều*.",
+     "say": "Tóm lại, nghĩa quân chiến thắng, là nhờ ba điều."
+    },
+    {
+     "text": "Một: chọn đúng *địa hình hiểm*. Hai: đánh trúng *đạo quân mạnh nhất* trước."
+    },
+    {
+     "text": "Ba: biết *kết thúc chiến tranh* đúng lúc, bằng một hội thề."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "day"
+       }
+      },
+      {
+       "fn": "dim",
+       "args": {
+        "opacity": 0.1
+       }
+      },
+      {
+       "fn": "text",
+       "args": {
+        "t": "VÌ SAO NGHĨA QUÂN THẮNG?",
+        "x": 960,
+        "y": 150,
+        "size": 64,
+        "color": "#FFF7E2",
+        "stroke": "#2B1B12"
+       }
+      }
+     ]
+    },
+    {
+     "name": "c1",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "panel",
+       "args": {
+        "x": 110,
+        "y": 260,
+        "w": 520,
+        "h": 440
+       }
+      },
+      {
+       "fn": "number_badge",
+       "args": {
+        "n": "1",
+        "x": 370,
+        "y": 260
+       }
+      },
+      {
+       "fn": "gorge_icon_text",
+       "args": {
+        "t1": "Chọn đúng",
+        "t2": "địa hình hiểm",
+        "x": 370,
+        "y": 470
+       }
+      }
+     ],
+     "appear": 1
+    },
+    {
+     "name": "c2",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "panel",
+       "args": {
+        "x": 700,
+        "y": 260,
+        "w": 520,
+        "h": 440
+       }
+      },
+      {
+       "fn": "number_badge",
+       "args": {
+        "n": "2",
+        "x": 960,
+        "y": 260
+       }
+      },
+      {
+       "fn": "gorge_icon_text",
+       "args": {
+        "t1": "Đánh trúng đạo quân",
+        "t2": "mạnh nhất trước",
+        "x": 960,
+        "y": 470
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 2.2
+    },
+    {
+     "name": "c3",
+     "motion": "rise_in",
+     "elements": [
+      {
+       "fn": "panel",
+       "args": {
+        "x": 1290,
+        "y": 260,
+        "w": 520,
+        "h": 440
+       }
+      },
+      {
+       "fn": "number_badge",
+       "args": {
+        "n": "3",
+        "x": 1550,
+        "y": 260
+       }
+      },
+      {
+       "fn": "gorge_icon_text",
+       "args": {
+        "t1": "Kết thúc chiến tranh",
+        "t2": "bằng hội thề",
+        "x": 1550,
+        "y": 470
+       }
+      }
+     ],
+     "appear": 2
+    }
+   ],
+   "id": 23
+  },
+  {
+   "key": "outro",
+   "timeline": false,
+   "narration": [
+    {
+     "text": "Bạn thấy *mưu kế nào* của nghĩa quân hay nhất? Bình luận cho Tí biết nhé."
+    },
+    {
+     "text": "Và tập sau, bạn muốn Tí xuyên không tới đâu? Nhớ *đăng ký kênh* để không bỏ lỡ nhé!"
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "sky",
+       "args": {
+        "kind": "night"
+       }
+      },
+      {
+       "fn": "portal",
+       "args": {
+        "cx": 960,
+        "cy": 430,
+        "r": 330
+       }
+      },
+      {
+       "fn": "badge",
+       "args": {
+        "text": "TẬP SAU ĐI ĐÂU?",
+        "x": 960,
+        "y": 70,
+        "size": 56,
+        "fill": "#F4C430"
+       }
+      }
+     ]
+    },
+    {
+     "name": "ti",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "ti",
+       "args": {
+        "x": 960,
+        "y": 780,
+        "s": 0.9,
+        "pose": "wave",
+        "expr": "excited",
+        "glow": true
+       }
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "chime",
+     "at": 0.1,
+     "gain": 0.25
+    }
+   ],
+   "id": 24
+  }
+ ],
+ "chapters": [
+  {
+   "scene": 1,
+   "title": "Bối cảnh năm 1427"
+  },
+  {
+   "scene": 4,
+   "title": "Hai mươi năm đô hộ (1407–1426)"
+  },
+  {
+   "scene": 10,
+   "title": "Viện binh nhà Minh – kế đánh Liễu Thăng trước"
+  },
+  {
+   "scene": 12,
+   "title": "Ải Chi Lăng – Liễu Thăng tử trận"
+  },
+  {
+   "scene": 15,
+   "title": "Truy kích: Cần Trạm – Phố Cát – Xương Giang"
+  },
+  {
+   "scene": 20,
+   "title": "Hội thề Đông Quan"
+  },
+  {
+   "scene": 23,
+   "title": "Vì sao nghĩa quân thắng?"
+  }
+ ],
+ "thumbnail": {
+  "elements": [
+   {
+    "fn": "gorge2",
+    "args": {
+     "floor": 600,
+     "mood": "storm",
+     "seed": 14
+    }
+   },
+   {
+    "fn": "dust",
+    "args": {
+     "x": 1250,
+     "y": 900,
+     "w": 600,
+     "opacity": 0.4
+    }
+   },
+   {
+    "fn": "troops",
+    "args": {
+     "x": 1250,
+     "y": 930,
+     "cols": 4,
+     "rows": 2,
+     "side": "minh",
+     "cavalry": true,
+     "s": 1.3,
+     "gap": 60,
+     "flags": 1,
+     "seed": 8
+    }
+   },
+   {
+    "fn": "arrow_volley",
+    "args": {
+     "x0": 500,
+     "y0": 300,
+     "x1": 1250,
+     "y1": 800,
+     "n": 16,
+     "seed": 3
+    }
+   },
+   {
+    "fn": "dim",
+    "args": {
+     "opacity": 0.28
+    }
+   },
+   {
+    "fn": "portrait",
+    "args": {
+     "x": 1560,
+     "y": 330,
+     "r": 230,
+     "who": "lieuthang",
+     "expr": "shock"
+    }
+   },
+   {
+    "fn": "bubble",
+    "args": {
+     "x": 1560,
+     "y": 660,
+     "text": "BẪY RỒI!!",
+     "tx": 1560,
+     "ty": 560,
+     "kind": "shout",
+     "size": 52
+    }
+   },
+   {
+    "fn": "ribbon_title",
+    "args": {
+     "kicker": "TÍ XUYÊN SỬ · TÓM TẮT NHANH",
+     "title": "10 VẠN QUÂN|MẮC BẪY",
+     "x": 90,
+     "y": 270,
+     "size": 170,
+     "sub": "Chi Lăng – Xương Giang 1427",
+     "gap": 1.26
+    }
+   },
+   {
+    "fn": "ti",
+    "args": {
+     "x": 300,
+     "y": 1180,
+     "s": 0.62,
+     "pose": "shock",
+     "expr": "surprised",
+     "glow": true
+    }
+   }
+  ]
+ },
+ "metadata": {
+  "title": "Chi Lăng – Xương Giang 1427: 15 vạn quân Minh thua thế nào?",
+  "alt_titles": [
+   "Tóm tắt nhanh chiến thắng Chi Lăng – Xương Giang | Lịch sử Việt Nam",
+   "Vì sao Liễu Thăng mất mạng ở ải Chi Lăng? | Tí Xuyên Sử"
+  ],
+  "description": "Năm 1427, nghĩa quân Lam Sơn của Lê Lợi đang vây quân Minh trong thành Đông Quan (Hà Nội). Nhà Minh gửi 15 vạn viện binh chia hai đường sang giải vây. Chỉ khoảng hai tháng sau, quân Minh phải thề rút hết về nước. Tí và Mít tóm tắt nhanh chiến thắng Chi Lăng – Xương Giang: mưu kế nhử địch, trận phục kích ở núi Mã Yên, cuộc vây diệt ở Xương Giang và Hội thề Đông Quan.\n\n{CHAPTERS}\n\n📌 Mốc chính:\n• 1407 – nhà Minh đô hộ\n• 1418 – Lê Lợi khởi nghĩa Lam Sơn\n• 10/1427 – Liễu Thăng tử trận ở Chi Lăng\n• 10/12/1427 – Hội thề Đông Quan\n• 1428 – Bình Ngô đại cáo\n\n💬 Bạn thấy mưu kế nào hay nhất? Bình luận nhé!\n🔔 Đăng ký kênh để xem tập mới mỗi tuần.\n\nTư liệu tham khảo: Đại Việt sử ký toàn thư; SGK Lịch sử 7; Bảo tàng Lịch sử Quốc gia; Báo Pháp luật (Hội thề Đông Quan). Một số mốc ngày giữa các nguồn chưa thống nhất, video dùng mốc phổ biến trong tài liệu tiếng Việt.\nHình ảnh minh hoạ mang tính tái hiện. Bản đồ minh hoạ dùng đường biên hiện đại để định vị: ranh giới 34 tỉnh thành Việt Nam (sau sắp xếp 2025, dữ liệu Free-GIS-Data của nguyenduy1133), nền Natural Earth; lãnh thổ Việt Nam gồm quần đảo Hoàng Sa và quần đảo Trường Sa.",
+  "hashtags": [
+   "#LichSuVietNam",
+   "#ChiLang",
+   "#LeLoi",
+   "#KhoiNghiaLamSon",
+   "#TiXuyenSu"
+  ],
+  "tags": [
+   "chi lăng xương giang",
+   "trận chi lăng",
+   "liễu thăng",
+   "lê lợi",
+   "nguyễn trãi",
+   "khởi nghĩa lam sơn",
+   "hội thề đông quan",
+   "lịch sử việt nam",
+   "tóm tắt lịch sử",
+   "tí xuyên sử",
+   "trận xương giang",
+   "ải chi lăng",
+   "lịch sử lớp 7",
+   "hội thề đông quan 1427"
+  ],
+  "category_id": "27",
+  "made_for_kids": false,
+  "language": "vi",
+  "pinned_comment": "Theo bạn, quyết định nào quan trọng nhất: chọn ải Chi Lăng, đánh Liễu Thăng trước, hay mở Hội thề Đông Quan? 👇"
+ }
+}

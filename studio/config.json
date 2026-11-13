@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "tts": {
+    "engine": "edge",
+    "piper_model": "models/vits-piper-vi_VN-vais1000-medium/vi_VN-vais1000-medium.onnx",
+    "edge_voice": "vi-VN-NamMinhNeural"
+  },
+  "subtitle": {
+    "font": "Be Vietnam Pro ExtraBold",
+    "size": 76,
+    "outline": 7,
+    "margin_v": 500
+  },
+  "subtitle_long": {
+    "font": "Be Vietnam Pro ExtraBold",
+    "size": 62,
+    "outline": 6,
+    "margin_v": 175,
+    "margin_lr": 300
+  }
+}

@@ -1,0 +1,1490 @@
+{
+ "id": "ep004-chi-lang-oil",
+ "series": "Tí Xuyên Sử",
+ "title_working": "Liễu Thăng và cú lừa ở ải Chi Lăng (phong cách fun v2 – nhân vật mới + nền sơn dầu)",
+ "format": "long",
+ "voice": {
+  "engine": "edge",
+  "edge_voice": "vi-VN-NamMinhNeural",
+  "edge_rate": "+5%",
+  "edge_pitch": "-4Hz",
+  "sentence_gap": 0.32,
+  "scene_tail": 0.45
+ },
+ "music": {
+  "file": "",
+  "volume": 0.14,
+  "generate": true,
+  "mood": "adventure"
+ },
+ "fact_check": [
+  "1427: nghĩa quân Lam Sơn vây quân Minh (Vương Thông) trong thành Đông Quan.",
+  "Viện binh Minh khoảng 15 vạn (Liễu Thăng 10 vạn theo sử Việt, Mộc Thạnh 5 vạn).",
+  "Liễu Thăng kiêu ngạo, khinh địch (Toàn thư).",
+  "Trần Lựu giả thua nhử Liễu Thăng vào ải Chi Lăng.",
+  "Liễu Thăng dẫn hơn 100 kỵ binh đi trước, tử trận ở núi Mã Yên (≈10/10/1427)."
+ ],
+ "scenes": [
+  {
+   "key": "open",
+   "bg_motion": "still",
+   "narration": [
+    {
+     "text": "Năm *1427*, nghĩa quân Lam Sơn của *Lê Lợi* đang vây chặt quân Minh trong thành Đông Quan, tức Hà Nội bây giờ.",
+     "say": "Năm một nghìn bốn trăm hai mươi bảy, nghĩa quân Lam Sơn của Lê Lợi đang vây chặt quân Minh trong thành Đông Quan, tức Hà Nội bây giờ."
+    },
+    {
+     "text": "Nhà Minh tính toán: gửi *mười lăm vạn quân* sang, thế nào cũng thắng!"
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "asia",
+        "vn": "#E9A92B",
+        "cn": "#C4453C",
+        "river": false,
+        "cn_label": "NHÀ MINH"
+       }
+      }
+     ]
+    },
+    {
+     "name": "faces",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "nation",
+       "args": {
+        "which": "VN",
+        "view": "asia",
+        "expr": "angry",
+        "eyes_at": [
+         19.6,
+         104.0
+        ],
+        "size": 0.55,
+        "shape": false
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Đông Quan",
+        "view": "asia",
+        "kind": "fort",
+        "text": "Đông Quan",
+        "dx": -220,
+        "dy": 40,
+        "size": 26
+       }
+      }
+     ]
+    },
+    {
+     "name": "arrow",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_arrow",
+       "args": {
+        "pts": [
+         [
+          27.5,
+          109.5
+         ],
+         [
+          24.0,
+          108.2
+         ],
+         "Chi Lăng"
+        ],
+        "view": "asia",
+        "width": 24,
+        "label": "15 vạn viện binh",
+        "label_dy": -46
+       }
+      },
+      {
+       "fn": "map_label",
+       "args": {
+        "place": "Chi Lăng",
+        "view": "asia",
+        "kind": "battle",
+        "text": "Chi Lăng",
+        "dx": 120,
+        "dy": 0,
+        "size": 26
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 1.0,
+     "fade_in": 0.2
+    },
+    {
+     "name": "smug",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "nation",
+       "args": {
+        "which": "CN",
+        "view": "asia",
+        "expr": "smug",
+        "eyes_at": [
+         31,
+         104
+        ],
+        "size": 1.3,
+        "shape": false
+       }
+      },
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "😎",
+        "x": 1000,
+        "y": 300,
+        "size": 110
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1350,
+        "y": 330,
+        "text": "15 vạn quân|là đủ!",
+        "tx": 1110,
+        "ty": 360,
+        "kind": "shout",
+        "size": 46
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.12
+    },
+    {
+     "name": "vn",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 560,
+        "y": 640,
+        "text": "Ờ… thử xem.",
+        "tx": 740,
+        "ty": 560,
+        "size": 34
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 3.0,
+     "fade_in": 0.15
+    }
+   ],
+   "sfx": [
+    {
+     "type": "chime",
+     "at": 0.1,
+     "gain": 0.2
+    }
+   ],
+   "id": 1
+  },
+  {
+   "key": "march",
+   "bg_motion": "left",
+   "narration": [
+    {
+     "text": "Tướng *Liễu Thăng* dẫn mười vạn quân, ầm ầm tiến qua *ải Chi Lăng*, Lạng Sơn."
+    },
+    {
+     "text": "Ông khinh địch ra mặt, coi nghĩa quân như… không có."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "karst_valley",
+        "time": "day",
+        "seed": 2
+       }
+      }
+     ]
+    },
+    {
+     "name": "army",
+     "motion": "drift_left",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "minh_soldier",
+        "x": 1350,
+        "y": 958,
+        "n": 7,
+        "s": 0.53,
+        "gap": 100,
+        "rows": 2,
+        "item": "spear",
+        "seed": 2
+       }
+      }
+     ]
+    },
+    {
+     "name": "lt",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 620,
+        "y": 880,
+        "s": 1.3,
+        "rider": "lieuthang",
+        "expr": "smug"
+       }
+      },
+      {
+       "fn": "caption_box",
+       "args": {
+        "text": "Liễu Thăng · tự tin 200%",
+        "x": 60,
+        "y": 60
+       }
+      }
+     ]
+    },
+    {
+     "name": "cu",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "karst_valley",
+        "time": "day",
+        "seed": 2,
+        "blur": 6
+       }
+      },
+      {
+       "fn": "flash",
+       "args": {
+        "color": "#1C1612",
+        "op": 0.18
+       }
+      },
+      {
+       "fn": "closeup",
+       "args": {
+        "who": "lieuthang",
+        "expr": "smug",
+        "x": 640,
+        "s": 3.0
+       }
+      },
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "😏",
+        "x": 1010,
+        "y": 230,
+        "size": 100
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1100,
+        "y": 640,
+        "text": "Nghĩa quân?|Chưa nghe bao giờ.",
+        "tx": 880,
+        "ty": 540,
+        "size": 36
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.08
+    },
+    {
+     "name": "teo",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "teo",
+        "x": 1640,
+        "y": 990,
+        "s": 1.15,
+        "expr": "blank",
+        "flip": true,
+        "pet_expr": ""
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1470,
+        "y": 380,
+        "text": "Ông ơi…|cẩn thận cái miệng.",
+        "tx": 1600,
+        "ty": 540,
+        "kind": "speech",
+        "size": 28
+       }
+      },
+      {
+       "fn": "callout",
+       "args": {
+        "text": "Tèo (vai: châu chấu Tí)",
+        "x": 1180,
+        "y": 860,
+        "tx": 1560,
+        "ty": 800,
+        "size": 30
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 0.4,
+     "fade_in": 0.12
+    }
+   ],
+   "id": 2
+  },
+  {
+   "key": "terrain",
+   "bg_motion": "push_down",
+   "narration": [
+    {
+     "text": "Có điều, Chi Lăng là một thung lũng hẹp, hai bên *núi đá dựng đứng*."
+    },
+    {
+     "text": "Lòng thung lũng thì *lầy lội*, quân đông đến mấy cũng phải đi thành hàng dài."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "gorge",
+        "time": "day",
+        "seed": 1
+       }
+      }
+     ]
+    },
+    {
+     "name": "c1",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "callout",
+       "args": {
+        "text": "Núi đá",
+        "x": 300,
+        "y": 200,
+        "tx": 520,
+        "ty": 380,
+        "size": 48
+       }
+      },
+      {
+       "fn": "callout",
+       "args": {
+        "text": "Núi đá",
+        "x": 1600,
+        "y": 200,
+        "tx": 1380,
+        "ty": 330,
+        "size": 48
+       }
+      }
+     ],
+     "appear": 0,
+     "fade_in": 0.15
+    },
+    {
+     "name": "c2",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "callout",
+       "args": {
+        "text": "Lối đi hẹp, lầy",
+        "x": 520,
+        "y": 560,
+        "tx": 820,
+        "ty": 780,
+        "size": 46
+       }
+      },
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "🫠",
+        "x": 1000,
+        "y": 640,
+        "size": 90
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.15
+    },
+    {
+     "name": "queue",
+     "motion": "drift_left",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "minh_soldier",
+        "x": 900,
+        "y": 928,
+        "n": 12,
+        "s": 0.36,
+        "gap": 62,
+        "item": "spear",
+        "seed": 21
+       }
+      },
+      {
+       "fn": "caption_box",
+       "args": {
+        "text": "Kẹt xe thế kỷ 15",
+        "x": 1000,
+        "y": 700,
+        "size": 32
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 1.0
+    },
+    {
+     "name": "teo",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "teo",
+        "x": 1640,
+        "y": 990,
+        "s": 1.15,
+        "expr": "think",
+        "flip": true,
+        "pet_expr": ""
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1470,
+        "y": 380,
+        "text": "Đông thế mà vào đây|thì xoay xở kiểu gì…",
+        "tx": 1600,
+        "ty": 540,
+        "kind": "speech",
+        "size": 26
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 2.0,
+     "fade_in": 0.12
+    }
+   ],
+   "id": 3
+  },
+  {
+   "key": "lure",
+   "bg_motion": "right",
+   "narration": [
+    {
+     "text": "Tướng *Trần Lựu* của nghĩa quân ra đánh vài hiệp, rồi… *quay đầu bỏ chạy*."
+    },
+    {
+     "text": "Diễn hơi lố, nhưng Liễu Thăng *tin ngay*, hăm hở đuổi theo vào sâu trong ải."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "river",
+        "time": "dawn",
+        "seed": 4
+       }
+      }
+     ]
+    },
+    {
+     "name": "tl",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "tranluu",
+        "x": 1350,
+        "y": 920,
+        "s": 1.1,
+        "expr": "sly",
+        "flip": true,
+        "item": "sword",
+        "label": true
+       }
+      },
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "dv_soldier",
+        "x": 1660,
+        "y": 958,
+        "n": 3,
+        "s": 0.52,
+        "gap": 110,
+        "flip": true,
+        "item": "spear",
+        "seed": 5,
+        "expr": "happy"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1400,
+        "y": 360,
+        "text": "Ối thua rồi!|(diễn đó)",
+        "tx": 1360,
+        "ty": 560,
+        "size": 34
+       }
+      }
+     ]
+    },
+    {
+     "name": "chase",
+     "motion": "drift_right",
+     "elements": [
+      {
+       "fn": "speed_lines",
+       "args": {
+        "cx": 960,
+        "cy": 540,
+        "n": 50,
+        "inner": 420,
+        "op": 0.55
+       }
+      },
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 520,
+        "y": 880,
+        "s": 1.3,
+        "rider": "lieuthang",
+        "expr": "angry"
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.12
+    },
+    {
+     "name": "cu",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "river",
+        "time": "dawn",
+        "seed": 4,
+        "blur": 6
+       }
+      },
+      {
+       "fn": "flash",
+       "args": {
+        "color": "#1C1612",
+        "op": 0.18
+       }
+      },
+      {
+       "fn": "speed_lines",
+       "args": {
+        "cx": 640,
+        "cy": 450,
+        "n": 60,
+        "inner": 380,
+        "op": 0.6
+       }
+      },
+      {
+       "fn": "closeup",
+       "args": {
+        "who": "lieuthang",
+        "expr": "grit",
+        "x": 640,
+        "s": 3.0
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1280,
+        "y": 330,
+        "text": "ĐUỔI!!!",
+        "tx": 980,
+        "ty": 400,
+        "kind": "shout",
+        "size": 64
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 2.0,
+     "fade_in": 0.06
+    },
+    {
+     "name": "rate",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "caption_box",
+       "args": {
+        "text": "Diễn xuất: 3/10 · Độ tin: 10/10",
+        "x": 60,
+        "y": 60,
+        "size": 32
+       }
+      }
+     ],
+     "appear": 1,
+     "appear_delay": 0.6,
+     "fade_in": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 5.6,
+     "gain": 0.3
+    }
+   ],
+   "id": 4
+  },
+  {
+   "key": "mayen",
+   "bg_motion": "push_up",
+   "narration": [
+    {
+     "text": "Đến *núi Mã Yên*, ông dẫn hơn trăm kỵ binh phóng lên trước."
+    },
+    {
+     "text": "Và rồi…"
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "mountain_pass",
+        "time": "dusk",
+        "seed": 3
+       }
+      }
+     ]
+    },
+    {
+     "name": "cav",
+     "motion": "drift_left",
+     "elements": [
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 760,
+        "y": 890,
+        "s": 1.15,
+        "rider": "lieuthang",
+        "expr": "smug"
+       }
+      },
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 1100,
+        "y": 900,
+        "s": 0.9,
+        "rider": "minh_soldier",
+        "expr": "deadpan"
+       }
+      },
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 1360,
+        "y": 905,
+        "s": 0.85,
+        "rider": "minh_soldier",
+        "expr": "deadpan"
+       }
+      }
+     ]
+    },
+    {
+     "name": "tag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "caption_box",
+       "args": {
+        "text": "Núi Mã Yên",
+        "x": 60,
+        "y": 60
+       }
+      },
+      {
+       "fn": "sign",
+       "args": {
+        "text": "Mã Yên →",
+        "x": 380,
+        "y": 900
+       }
+      }
+     ]
+    },
+    {
+     "name": "brag",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 760,
+        "y": 330,
+        "text": "Ta đi trước,|các ngươi theo sau!",
+        "tx": 760,
+        "ty": 500,
+        "size": 32
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.0,
+     "fade_in": 0.15
+    },
+    {
+     "name": "teo",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "teo",
+        "x": 1640,
+        "y": 990,
+        "s": 1.15,
+        "expr": "blank",
+        "flip": true,
+        "pet_expr": "scared"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1470,
+        "y": 380,
+        "text": "Linh cảm|không lành…",
+        "tx": 1600,
+        "ty": 540,
+        "kind": "think",
+        "size": 30
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.1
+    }
+   ],
+   "id": 5
+  },
+  {
+   "key": "ambush",
+   "bg_motion": "still",
+   "narration": [
+    {
+     "text": "*Trống trận nổi lên!* Phục binh từ hai bên sườn núi ào ra!",
+     "say": "Trống trận nổi lên! Phục binh từ hai bên sườn núi ào ra!"
+    },
+    {
+     "text": "*Liễu Thăng tử trận* ngay tại chỗ."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "gorge",
+        "time": "storm",
+        "seed": 1
+       }
+      }
+     ]
+    },
+    {
+     "name": "lines",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "speed_lines",
+       "args": {
+        "cx": 960,
+        "cy": 560,
+        "n": 70,
+        "inner": 380,
+        "op": 0.7
+       }
+      }
+     ],
+     "hide_t": 3.85
+    },
+    {
+     "name": "amb_l",
+     "motion": "from_left",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "dv_soldier",
+        "x": 380,
+        "y": 588,
+        "n": 4,
+        "s": 0.53,
+        "gap": 95,
+        "item": "bow",
+        "seed": 3,
+        "expr": "angry"
+       }
+      }
+     ],
+     "appear_t": 0.25,
+     "fade_in": 0.1
+    },
+    {
+     "name": "amb_r",
+     "motion": "from_right",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "dv_soldier",
+        "x": 1540,
+        "y": 588,
+        "n": 4,
+        "s": 0.53,
+        "gap": 95,
+        "flip": true,
+        "item": "spear",
+        "seed": 4,
+        "expr": "angry"
+       }
+      }
+     ],
+     "appear_t": 0.35,
+     "fade_in": 0.1
+    },
+    {
+     "name": "arrows",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 380,
+        "y0": 470,
+        "x1": 900,
+        "y1": 820,
+        "n": 16,
+        "seed": 7
+       }
+      },
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 1540,
+        "y0": 470,
+        "x1": 1020,
+        "y1": 820,
+        "n": 16,
+        "seed": 8
+       }
+      }
+     ],
+     "appear_t": 0.9,
+     "fade_in": 0.1
+    },
+    {
+     "name": "lt",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "doodle_horse",
+       "args": {
+        "x": 960,
+        "y": 900,
+        "s": 1.2,
+        "rider": "lieuthang",
+        "expr": "shock"
+       }
+      }
+     ],
+     "hide_t": 1.8
+    },
+    {
+     "name": "boom",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "boom",
+       "args": {
+        "text": "TÙNG TÙNG!",
+        "x": 960,
+        "y": 250,
+        "size": 150
+       }
+      }
+     ],
+     "appear_t": 0.05,
+     "fade_in": 0.05,
+     "hold": 1.6
+    },
+    {
+     "name": "flash",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "flash",
+       "args": {
+        "color": "#FFFFFF",
+        "op": 0.9
+       }
+      }
+     ],
+     "appear_t": 0.02,
+     "fade_in": 0.03,
+     "hold": 0.15
+    },
+    {
+     "name": "cu",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "gorge",
+        "time": "storm",
+        "seed": 1,
+        "blur": 6
+       }
+      },
+      {
+       "fn": "flash",
+       "args": {
+        "color": "#1C1612",
+        "op": 0.18
+       }
+      },
+      {
+       "fn": "closeup",
+       "args": {
+        "who": "lieuthang",
+        "expr": "shock",
+        "x": 960,
+        "s": 3.0
+       }
+      },
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 200,
+        "y0": 200,
+        "x1": 700,
+        "y1": 700,
+        "n": 10,
+        "seed": 9
+       }
+      },
+      {
+       "fn": "arrow_volley",
+       "args": {
+        "x0": 1720,
+        "y0": 200,
+        "x1": 1220,
+        "y1": 700,
+        "n": 10,
+        "seed": 10
+       }
+      }
+     ],
+     "appear_t": 1.8,
+     "fade_in": 0.06,
+     "hide_t": 3.85
+    },
+    {
+     "name": "rip",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "gorge",
+        "time": "storm",
+        "seed": 1
+       }
+      },
+      {
+       "fn": "flash",
+       "args": {
+        "color": "#2A2A2A",
+        "op": 0.45
+       }
+      },
+      {
+       "fn": "fallen_flag",
+       "args": {
+        "x": 640,
+        "y": 900,
+        "s": 1.2
+       }
+      },
+      {
+       "fn": "fallen_helmet",
+       "args": {
+        "x": 1180,
+        "y": 880,
+        "s": 1.3
+       }
+      },
+      {
+       "fn": "medallion",
+       "args": {
+        "who": "lieuthang",
+        "x": 960,
+        "y": 300,
+        "r": 130,
+        "expr": "neutral",
+        "name": "Liễu Thăng"
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.4
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crash",
+     "at": 0.05,
+     "gain": 0.4
+    },
+    {
+     "type": "whoosh",
+     "at": 0.9,
+     "gain": 0.3
+    }
+   ],
+   "id": 6
+  },
+  {
+   "key": "chaos",
+   "bg_motion": "left",
+   "narration": [
+    {
+     "text": "Mất chủ tướng, mười vạn quân Minh *rối như canh hẹ*."
+    },
+    {
+     "text": "Mà đây… mới chỉ là *màn khởi động*."
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "oil_bg",
+       "args": {
+        "kind": "karst_valley",
+        "time": "dusk",
+        "seed": 6
+       }
+      }
+     ]
+    },
+    {
+     "name": "m1",
+     "motion": "shake",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "minh_soldier",
+        "x": 640,
+        "y": 958,
+        "n": 5,
+        "s": 0.53,
+        "gap": 95,
+        "rows": 2,
+        "item": "spear",
+        "seed": 11,
+        "exprs": [
+         "panic",
+         "shock",
+         "cry"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "m2",
+     "motion": "shake",
+     "elements": [
+      {
+       "fn": "crowd",
+       "args": {
+        "who": "minh_soldier",
+        "x": 1250,
+        "y": 958,
+        "n": 5,
+        "s": 0.53,
+        "gap": 95,
+        "rows": 2,
+        "flip": true,
+        "item": "flag",
+        "seed": 12,
+        "exprs": [
+         "panic",
+         "shock",
+         "cry"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "name": "fx",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "❓",
+        "x": 640,
+        "y": 520,
+        "size": 90
+       }
+      },
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "😵",
+        "x": 1250,
+        "y": 520,
+        "size": 90
+       }
+      },
+      {
+       "fn": "emoji",
+       "args": {
+        "ch": "💨",
+        "x": 950,
+        "y": 640,
+        "size": 80
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 0.8,
+     "fade_in": 0.15
+    },
+    {
+     "name": "cap",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "caption_box",
+       "args": {
+        "text": "Tình hình: hỗn loạn toàn tập",
+        "x": 60,
+        "y": 60
+       }
+      }
+     ],
+     "appear": 0,
+     "appear_delay": 1.2,
+     "fade_in": 0.1
+    },
+    {
+     "name": "teo",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "teo",
+        "x": 1640,
+        "y": 990,
+        "s": 1.15,
+        "expr": "blank",
+        "flip": true,
+        "pet_expr": "smug"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 1470,
+        "y": 380,
+        "text": "Chưa hết đâu.",
+        "tx": 1600,
+        "ty": 540,
+        "kind": "speech",
+        "size": 32
+       }
+      }
+     ],
+     "appear": 1,
+     "fade_in": 0.1
+    }
+   ],
+   "id": 7
+  },
+  {
+   "key": "outro",
+   "bg_motion": "still",
+   "narration": [
+    {
+     "text": "Đạo quân Minh mất tướng vẫn còn rất đông. Theo bạn, nghĩa quân sẽ làm gì tiếp theo? Bình luận dự đoán nhé!"
+    },
+    {
+     "text": "Và nhớ *đăng ký kênh* để xem phần sau!"
+    }
+   ],
+   "layers": [
+    {
+     "name": "bg",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "map_base",
+       "args": {
+        "view": "asia",
+        "vn": "#E9A92B",
+        "cn": "#C4453C",
+        "river": false,
+        "cn_label": "NHÀ MINH"
+       }
+      }
+     ]
+    },
+    {
+     "name": "faces",
+     "motion": "none",
+     "elements": [
+      {
+       "fn": "nation",
+       "args": {
+        "which": "CN",
+        "view": "asia",
+        "expr": "sad",
+        "eyes_at": [
+         31,
+         104
+        ],
+        "size": 1.3,
+        "shape": false
+       }
+      },
+      {
+       "fn": "nation",
+       "args": {
+        "which": "VN",
+        "view": "asia",
+        "expr": "cool",
+        "eyes_at": [
+         19.6,
+         104.0
+        ],
+        "size": 0.55,
+        "shape": false
+       }
+      }
+     ]
+    },
+    {
+     "name": "teo",
+     "motion": "bob",
+     "elements": [
+      {
+       "fn": "peg",
+       "args": {
+        "who": "teo",
+        "x": 320,
+        "y": 1010,
+        "s": 1.6,
+        "expr": "blank",
+        "pet_expr": "happy"
+       }
+      },
+      {
+       "fn": "bubble",
+       "args": {
+        "x": 380,
+        "y": 200,
+        "text": "Bình luận|dự đoán nhé!",
+        "tx": 360,
+        "ty": 330,
+        "size": 34
+       }
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "chime",
+     "at": 0.1,
+     "gain": 0.2
+    }
+   ],
+   "id": 8
+  }
+ ],
+ "thumbnail": {
+  "elements": [
+   {
+    "fn": "oil_bg",
+    "args": {
+     "kind": "gorge",
+     "time": "storm",
+     "seed": 1
+    }
+   },
+   {
+    "fn": "speed_lines",
+    "args": {
+     "cx": 1420,
+     "cy": 420,
+     "n": 60,
+     "inner": 300,
+     "op": 0.6
+    }
+   },
+   {
+    "fn": "closeup",
+    "args": {
+     "who": "lieuthang",
+     "expr": "shock",
+     "x": 1420,
+     "s": 3.3
+    }
+   },
+   {
+    "fn": "emoji",
+    "args": {
+     "ch": "😱",
+     "x": 1800,
+     "y": 200,
+     "size": 130
+    }
+   },
+   {
+    "fn": "boom",
+    "args": {
+     "text": "BẪY!",
+     "x": 1000,
+     "y": 170,
+     "size": 150,
+     "rot": -8
+    }
+   },
+   {
+    "fn": "ribbon_title",
+    "args": {
+     "kicker": "TÍ XUYÊN SỬ",
+     "title": "LIỄU THĂNG|MẮC LỪA",
+     "x": 70,
+     "y": 330,
+     "size": 150,
+     "sub": "Ải Chi Lăng 1427",
+     "kicker_dy": -22
+    }
+   }
+  ]
+ },
+ "metadata": {
+  "title": "Liễu Thăng mắc lừa ở ải Chi Lăng 😱 | Tí Xuyên Sử",
+  "alt_titles": [
+   "15 vạn quân Minh và cú lừa thế kỷ ở Chi Lăng",
+   "Vì sao Liễu Thăng mất mạng ở núi Mã Yên?"
+  ],
+  "description": "Năm 1427, nghĩa quân Lam Sơn đang vây quân Minh ở Đông Quan. Nhà Minh gửi 15 vạn viện binh sang giải vây… và Liễu Thăng đã mắc một cú lừa ở ải Chi Lăng.\n\n💬 Bạn đoán nghĩa quân sẽ làm gì tiếp theo? Bình luận nhé!\n🔔 Đăng ký kênh để xem phần sau.\n\nTư liệu: Đại Việt sử ký toàn thư; SGK Lịch sử 7; Bảo tàng Lịch sử Quốc gia.\nẢnh nền & nhân vật: tự vẽ (tranh sơn dầu kỹ thuật số). Bản đồ: Natural Earth; Free-GIS-Data (34 tỉnh thành, gồm quần đảo Hoàng Sa và Trường Sa của Việt Nam).\nHình minh hoạ mang tính hài hước, tái hiện; sự kiện theo sử liệu.",
+  "hashtags": [
+   "#LichSuVietNam",
+   "#ChiLang",
+   "#TiXuyenSu"
+  ],
+  "tags": [
+   "chi lăng",
+   "liễu thăng",
+   "lê lợi",
+   "trần lựu",
+   "khởi nghĩa lam sơn",
+   "lịch sử hài hước",
+   "tí xuyên sử"
+  ],
+  "category_id": "27",
+  "made_for_kids": false,
+  "language": "vi",
+  "pinned_comment": "Dự đoán đi: nghĩa quân sẽ xử lý phần còn lại của đạo quân Minh thế nào? 👇"
+ }
+}
